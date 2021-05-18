@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (upperCase == false && lowerCase == false && digits == false && mathOperations == false && otherSymbols == false) {
             Toast.makeText(this, "Please select atLeast one checkBox !", Toast.LENGTH_SHORT).show();
+            return;
         }
 
         //Create bundle to pass
